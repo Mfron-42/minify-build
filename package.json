@@ -9,7 +9,10 @@
   "main": "minify.js",
   "license": "MIT",
   "bin": {
-    "minify": "minify-build.js"
+    "minify-build": "minify-build.js"
+  },
+  "scripts": {
+    "build": "node src/minify-build.js src bin"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
