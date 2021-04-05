@@ -1,8 +1,9 @@
+'use strict';
+
 const minify = require('minify');
 const fs = require('fs');
 const path = require('path');
 const { resolve } = require('path');
-
 
 let [src, dest] = process.argv.slice(2, 4);
 dest = resolve(dest, "");

@@ -5,14 +5,14 @@
     "type": "git",
     "url": "https://github.com/Mfron-42/minify-build.git"
   },
-  "version": "1.0.1",
-  "main": "src/minify.js",
+  "version": "1.0.2",
+  "main": "src/minify-build",
   "license": "MIT",
   "bin": {
-    "minify-build": "bin/minify-build.js"
+    "minify-build": "bin/minify-build"
   },
   "scripts": {
-    "build": "node src/minify-build.js src bin"
+    "build": "node ./src/minify-build src bin"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
