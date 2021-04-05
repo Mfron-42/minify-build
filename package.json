@@ -1,0 +1,19 @@
+{
+  "name": "minify-build",
+  "description": "Minifier based on minify to minify a folder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mfron-42/minify-build.git"
+  },
+  "version": "1.0.0",
+  "main": "minify.js",
+  "license": "MIT",
+  "bin": {
+    "minify": "minify-build.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "minify": "^7.0.1",
+    "path": "^0.12.7"
+  }
+}
